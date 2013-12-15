@@ -35,5 +35,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-karma');
   grunt.loadNpmTasks('grunt-karma-coveralls');
 
-  grunt.registerTask('default', ['karma:ci', 'karma:coverage']);
+  grunt.registerTask('default', ['karma:ci']);
+  grunt.registerTask('coverage', ['karma:coverage', 'coveralls']);
 };

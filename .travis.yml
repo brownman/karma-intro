@@ -9,4 +9,4 @@ script:
   - grunt
 
 after_success:
-  - grunt coveralls
+  - grunt coverage

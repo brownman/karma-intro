@@ -1,8 +1,7 @@
 karma-intro [![Build Status](https://travis-ci.org/ama-ch/karma-intro.png?branch=master)](https://travis-ci.org/ama-ch/karma-intro) [![Dependency Status](https://david-dm.org/ama-ch/karma-intro.png)](https://david-dm.org/ama-ch/karma-intro) [![Coverage Status](https://coveralls.io/repos/ama-ch/karma-intro/badge.png)](https://coveralls.io/r/ama-ch/karma-intro?branch=coveralls-setting)
 ===========
 
-Karma sample project.  
-Using Mocha and expect.js, Grunt. Continuous Integration with [Travis CI](https://travis-ci.org/) and [Coveralls](https://coveralls.io/).
+Example of Karma workflow with [Travis CI](https://travis-ci.org/) and [Coveralls](https://coveralls.io/).
 
 ## Test framework
 

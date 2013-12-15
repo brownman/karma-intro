@@ -17,12 +17,23 @@ module.exports = function(grunt) {
         preprocessors: {
           'js/**/*.js': ['coverage']
         },
+        coverageReporter: {
+          type: "lcov",
+          dir: "coverage/"
+        },
         singleRun: true
+      }
+    },
+    coveralls: {
+      options: {
+        debug: true,
+        coverage_dir: 'coverage'
       }
     }
   });
 
   grunt.loadNpmTasks('grunt-karma');
+  grunt.loadNpmTasks('grunt-karma-coveralls');
 
   grunt.registerTask('default', ['karma:ci', 'karma:coverage']);
 };

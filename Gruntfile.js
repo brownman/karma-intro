@@ -23,4 +23,6 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks('grunt-karma');
+
+  grunt.registerTask('default', ['karma:ci', 'karma:coverage']);
 };

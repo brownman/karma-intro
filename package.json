@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/ama-ch/karma-intro/issues"
   },
-  "homepage": "https://github.com/ama-ch/karma-intro"
+  "homepage": "https://github.com/ama-ch/karma-intro",
+  "devDependencies": {
+    "grunt-karma": "~0.6.2",
+    "karma-mocha": "~0.1.1",
+    "karma-expect": "~1.0.0"
+  }
 }

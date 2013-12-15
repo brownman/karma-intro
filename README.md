@@ -8,6 +8,15 @@ Using Mocha and expect.js, Grunt. Continuous Integration with [Travis CI](https:
 
 [Mocha](http://visionmedia.github.io/mocha/) and [expect.js](https://github.com/LearnBoost/expect.js/).
 
+## Installation
+
+```bash
+$ npm install -g grunt-cli
+$ git clone https://github.com/ama-ch/karma-intro.git
+$ cd karma-intro
+$ npm install
+```
+
 ## Running tests
 
 For TDD:

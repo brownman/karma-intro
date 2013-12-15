@@ -28,4 +28,5 @@ For Coverage:
 $ grunt coverage
 ```
 
-This command is alias to `grunt karma:coverage coveralls`.
+This command is alias to `grunt karma:coverage coveralls`.  
+`grunt karma:coverage` generates coverage reports and `grunt coveralls` posts to Coveralls.

@@ -6,7 +6,19 @@ module.exports = function(grunt) {
       options: {
         configFile: 'karma.conf.js'
       },
-      unit: {}
+      dev: {},
+      ci: {
+        browsers: ['PhantomJS'],
+        singleRun: true
+      },
+      coverage: {
+        browsers: ['PhantomJS'],
+        reporters: ['coverage'],
+        preprocessors: {
+          'js/**/*.js': ['coverage']
+        },
+        singleRun: true
+      }
     }
   });
 

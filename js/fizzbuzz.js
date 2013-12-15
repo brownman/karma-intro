@@ -2,13 +2,13 @@ function fizzbuzz(num) {
   var fizz = num % 3 === 0;
   var buzz = num % 5 === 0;
   if (fizz && buzz) {
-  	return 'FizzBuzz';
+    return 'FizzBuzz';
   }
   if (fizz) {
-  	return 'Fizz';
+    return 'Fizz';
   }
   if (buzz) {
-  	return 'Buzz';
+    return 'Buzz';
   }
   return num;
 }

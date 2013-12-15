@@ -1,0 +1,19 @@
+{
+  "name": "karma-intro",
+  "version": "0.0.0",
+  "description": "karma-intro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ama-ch/karma-intro.git"
+  },
+  "author": "ama-ch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ama-ch/karma-intro/issues"
+  },
+  "homepage": "https://github.com/ama-ch/karma-intro"
+}

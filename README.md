@@ -1,4 +1,4 @@
-karma-intro [![Build Status](https://travis-ci.org/brownman/karma-intro.png?branch=master)](https://travis-ci.org/brownman/karma-intro) [![Coverage Status](https://coveralls.io/repos/brownman/karma-intro/badge.png)](https://coveralls.io/r/brownman/karma-intro?branch=coveralls-setting) [![Dependency Status](https://david-dm.org/brownman/karma-intro.png)](https://david-dm.org/brownman/karma-intro) [![devDependency Status](https://david-dm.org/brownman/karma-intro/dev-status.png)](https://david-dm.org/brownman/karma-intro#info=devDependencies)
+karma-intro [![Build Status](https://travis-ci.org/brownman/karma-intro.png?branch=master)](https://travis-ci.org/brownman/karma-intro)
 ===========
 
 Example of Karma workflow with [Travis CI](https://travis-ci.org/) and [Coveralls](https://coveralls.io/).
